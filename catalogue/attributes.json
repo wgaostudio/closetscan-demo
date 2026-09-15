@@ -1,0 +1,590 @@
+{
+  "model": "openai/gpt-6-astra",
+  "garments": {
+    "0": {
+      "name": "Grey marl short-sleeve polo",
+      "description": "A light grey marl polo with short sleeves, a ribbed collar and a three-button placket.",
+      "category": "top",
+      "subcategory": "polo shirt",
+      "colours": [
+        "grey"
+      ],
+      "pattern": "marl",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "smart-casual"
+    },
+    "1": {
+      "name": "Purple Allen School tee",
+      "description": "A purple crewneck tee with white Paul G. Allen School lettering across the chest.",
+      "category": "top",
+      "subcategory": "t-shirt",
+      "colours": [
+        "purple",
+        "white"
+      ],
+      "pattern": "graphic-print",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "casual"
+    },
+    "2": {
+      "name": "Navy white-trim sports jersey",
+      "description": "A navy short-sleeve sports jersey with a white V-neck, white side panels and a small tree emblem.",
+      "category": "top",
+      "subcategory": "sports jersey",
+      "colours": [
+        "navy",
+        "white"
+      ],
+      "pattern": "colour-block",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "athletic"
+    },
+    "3": {
+      "name": "Charcoal pullover hoodie",
+      "description": "A charcoal pullover hoodie with white drawstrings, a kangaroo pocket and ribbed cuffs and hem.",
+      "category": "top",
+      "subcategory": "hoodie",
+      "colours": [
+        "charcoal",
+        "white"
+      ],
+      "pattern": "solid",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "autumn",
+        "winter"
+      ],
+      "formality": "casual"
+    },
+    "4": {
+      "name": "Multicolour geometric tapestry jacket",
+      "description": "A black-based jacket covered in orange, green and red geometric motifs, with metal fastenings and two flap chest pockets.",
+      "category": "outerwear",
+      "subcategory": "jacket",
+      "colours": [
+        "black",
+        "orange",
+        "green",
+        "red",
+        "cream"
+      ],
+      "pattern": "colour-block",
+      "material": "tapestry weave",
+      "season": [
+        "spring",
+        "autumn"
+      ],
+      "formality": "casual"
+    },
+    "5": {
+      "name": "Black grey-panel hooded jacket",
+      "description": "A black hooded zip jacket with grey side panels and contrasting grey zips on the front and three pockets.",
+      "category": "outerwear",
+      "subcategory": "hooded jacket",
+      "colours": [
+        "black",
+        "grey"
+      ],
+      "pattern": "colour-block",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "autumn"
+      ],
+      "formality": "casual"
+    },
+    "6": {
+      "name": "Black Qdrant logo tee",
+      "description": "A black short-sleeve crewneck tee with a small white Qdrant logo on the chest.",
+      "category": "top",
+      "subcategory": "t-shirt",
+      "colours": [
+        "black",
+        "white"
+      ],
+      "pattern": "graphic-print",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "casual"
+    },
+    "7": {
+      "name": "Sage striped knit polo",
+      "description": "A sage long-sleeve polo with thin cream chest and sleeve stripes and ribbed cuffs and hem.",
+      "category": "knitwear",
+      "subcategory": "knitted polo",
+      "colours": [
+        "sage",
+        "cream"
+      ],
+      "pattern": "stripe",
+      "material": "knit",
+      "season": [
+        "spring",
+        "autumn"
+      ],
+      "formality": "smart-casual"
+    },
+    "8": {
+      "name": "Light grey pullover hoodie",
+      "description": "A light grey marl hoodie with cream drawstrings, a kangaroo pocket and ribbed edges.",
+      "category": "top",
+      "subcategory": "hoodie",
+      "colours": [
+        "grey",
+        "cream"
+      ],
+      "pattern": "marl",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "autumn",
+        "winter"
+      ],
+      "formality": "casual"
+    },
+    "9": {
+      "name": "Cream Abercrombie crewneck tee",
+      "description": "A plain pale cream short-sleeve tee with a ribbed crew neckline and straight hem.",
+      "category": "top",
+      "subcategory": "t-shirt",
+      "colours": [
+        "cream"
+      ],
+      "pattern": "solid",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "casual"
+    },
+    "10": {
+      "name": "Charcoal mock-neck sweater",
+      "description": "A charcoal knit sweater with a raised ribbed mock neck and wide ribbed cuffs and hem.",
+      "category": "knitwear",
+      "subcategory": "sweater",
+      "colours": [
+        "charcoal"
+      ],
+      "pattern": "solid",
+      "material": "knit",
+      "season": [
+        "autumn",
+        "winter"
+      ],
+      "formality": "smart-casual"
+    },
+    "11": {
+      "name": "Navy Quince crewneck tee",
+      "description": "A plain navy short-sleeve tee with a ribbed crew neckline and straight hem.",
+      "category": "top",
+      "subcategory": "t-shirt",
+      "colours": [
+        "navy"
+      ],
+      "pattern": "solid",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "casual"
+    },
+    "12": {
+      "name": "White micro-pattern polo",
+      "description": "A white short-sleeve polo with a faint grey micro-pattern and three contrasting dark buttons.",
+      "category": "top",
+      "subcategory": "polo shirt",
+      "colours": [
+        "white",
+        "grey"
+      ],
+      "pattern": "unknown",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "smart-casual"
+    },
+    "13": {
+      "name": "Navy long-sleeve polo",
+      "description": "A plain navy long-sleeve polo with a three-button placket and fitted cuffs.",
+      "category": "top",
+      "subcategory": "polo shirt",
+      "colours": [
+        "navy"
+      ],
+      "pattern": "solid",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "autumn"
+      ],
+      "formality": "smart-casual"
+    },
+    "14": {
+      "name": "White abstract-panel pullover shirt",
+      "description": "A white long-sleeve band-collar shirt with a partial button placket and a large multicolour abstract panel crossed by a brown strip.",
+      "category": "top",
+      "subcategory": "pullover shirt",
+      "colours": [
+        "white",
+        "black",
+        "green",
+        "brown",
+        "grey",
+        "orange",
+        "blue"
+      ],
+      "pattern": "graphic-print",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "autumn"
+      ],
+      "formality": "casual"
+    },
+    "15": {
+      "name": "Burgundy teddy-bear sweater",
+      "description": "A burgundy crewneck sweater with ribbed edges and a large teddy-bear head motif wearing a cap and scarf.",
+      "category": "knitwear",
+      "subcategory": "sweater",
+      "colours": [
+        "burgundy",
+        "brown",
+        "cream",
+        "yellow",
+        "blue"
+      ],
+      "pattern": "graphic-print",
+      "material": "knit",
+      "season": [
+        "autumn",
+        "winter"
+      ],
+      "formality": "casual"
+    },
+    "16": {
+      "name": "Olive Quince crewneck tee",
+      "description": "A plain olive green short-sleeve tee with a ribbed crew neckline and straight hem.",
+      "category": "top",
+      "subcategory": "t-shirt",
+      "colours": [
+        "olive"
+      ],
+      "pattern": "solid",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "casual"
+    },
+    "17": {
+      "name": "Sage single-breasted blazer",
+      "description": "A sage single-breasted blazer with notch lapels, two front buttons and flap hip pockets.",
+      "category": "suiting",
+      "subcategory": "blazer",
+      "colours": [
+        "sage"
+      ],
+      "pattern": "solid",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "formality": "smart-casual"
+    },
+    "18": {
+      "name": "White short-sleeve hooded jacket",
+      "description": "A white short-sleeve hooded jacket with a full zip, zipped side pockets and a drawstring hem.",
+      "category": "outerwear",
+      "subcategory": "hooded jacket",
+      "colours": [
+        "white"
+      ],
+      "pattern": "solid",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "casual"
+    },
+    "19": {
+      "name": "White Jeep hooded jacket",
+      "description": "A white hooded jacket with a black Jeep chest logo, black pocket zips and a snap-fastened front flap.",
+      "category": "outerwear",
+      "subcategory": "hooded jacket",
+      "colours": [
+        "white",
+        "black"
+      ],
+      "pattern": "solid",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "autumn"
+      ],
+      "formality": "casual"
+    },
+    "20": {
+      "name": "Off-white long-sleeve tee",
+      "description": "A plain off-white long-sleeve top with a ribbed crew neckline and straight, uncuffed sleeves.",
+      "category": "top",
+      "subcategory": "long-sleeve t-shirt",
+      "colours": [
+        "cream"
+      ],
+      "pattern": "solid",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "autumn"
+      ],
+      "formality": "casual"
+    },
+    "21": {
+      "name": "Blue-grey crosshatch shirt",
+      "description": "A blue-grey short-sleeve button-front shirt with an all-over pale crosshatch pattern and pointed collar.",
+      "category": "top",
+      "subcategory": "short-sleeve shirt",
+      "colours": [
+        "blue",
+        "grey",
+        "cream"
+      ],
+      "pattern": "unknown",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "smart-casual"
+    },
+    "22": {
+      "name": "Cream textured trucker jacket",
+      "description": "A cream button-front jacket with a subtle streaky texture, one flap chest pocket and two welt side pockets.",
+      "category": "outerwear",
+      "subcategory": "trucker jacket",
+      "colours": [
+        "cream"
+      ],
+      "pattern": "solid",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "autumn"
+      ],
+      "formality": "casual"
+    },
+    "23": {
+      "name": "Black Washington long-sleeve tee",
+      "description": "A black long-sleeve crewneck tee with a large purple W outlined in gold across the chest.",
+      "category": "top",
+      "subcategory": "long-sleeve t-shirt",
+      "colours": [
+        "black",
+        "purple",
+        "gold"
+      ],
+      "pattern": "graphic-print",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "autumn"
+      ],
+      "formality": "casual"
+    },
+    "24": {
+      "name": "Brown Levi's trucker jacket",
+      "description": "A warm brown trucker jacket with metal buttons, two pointed flap chest pockets and prominent panel seams.",
+      "category": "outerwear",
+      "subcategory": "trucker jacket",
+      "colours": [
+        "brown"
+      ],
+      "pattern": "solid",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "autumn"
+      ],
+      "formality": "casual"
+    },
+    "25": {
+      "name": "Cream Steiff teddy-bear tee",
+      "description": "A cream short-sleeve crewneck tee with brown Steiff lettering above a teddy-bear graphic.",
+      "category": "top",
+      "subcategory": "t-shirt",
+      "colours": [
+        "cream",
+        "brown",
+        "yellow"
+      ],
+      "pattern": "graphic-print",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "casual"
+    },
+    "26": {
+      "name": "Charcoal striped hooded track jacket",
+      "description": "A charcoal hooded zip jacket with asymmetric white sleeve stripes and elasticated cuffs and hem.",
+      "category": "outerwear",
+      "subcategory": "track jacket",
+      "colours": [
+        "charcoal",
+        "white"
+      ],
+      "pattern": "stripe",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "autumn"
+      ],
+      "formality": "athletic"
+    },
+    "27": {
+      "name": "Ivory corduroy overshirt",
+      "description": "An ivory corduroy overshirt with dark buttons, one patch chest pocket and a curved hem.",
+      "category": "outerwear",
+      "subcategory": "overshirt",
+      "colours": [
+        "ivory",
+        "black"
+      ],
+      "pattern": "solid",
+      "material": "corduroy",
+      "season": [
+        "spring",
+        "autumn"
+      ],
+      "formality": "casual"
+    },
+    "28": {
+      "name": "Olive yellow Camel jacket",
+      "description": "An olive and yellow colour-block hooded jacket with a Camel chest logo, sleeve patch and covered front fastening.",
+      "category": "outerwear",
+      "subcategory": "hooded jacket",
+      "colours": [
+        "olive",
+        "yellow",
+        "black"
+      ],
+      "pattern": "colour-block",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "autumn"
+      ],
+      "formality": "casual"
+    },
+    "29": {
+      "name": "Cream single-breasted blazer",
+      "description": "A cream single-breasted blazer with notch lapels, one dark front button and flap hip pockets.",
+      "category": "suiting",
+      "subcategory": "blazer",
+      "colours": [
+        "cream"
+      ],
+      "pattern": "solid",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "formality": "smart-casual"
+    },
+    "30": {
+      "name": "White Quince crewneck tee",
+      "description": "A plain white short-sleeve tee with a ribbed crew neckline and straight hem.",
+      "category": "top",
+      "subcategory": "t-shirt",
+      "colours": [
+        "white"
+      ],
+      "pattern": "solid",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "casual"
+    },
+    "31": {
+      "name": "Charcoal Ralph Lauren shirt",
+      "description": "A charcoal long-sleeve button-down shirt with pale buttons, a curved hem and a small red pony chest emblem.",
+      "category": "top",
+      "subcategory": "button-down shirt",
+      "colours": [
+        "charcoal",
+        "red"
+      ],
+      "pattern": "solid",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "autumn"
+      ],
+      "formality": "smart-casual"
+    },
+    "32": {
+      "name": "Blue tree-emblem polo",
+      "description": "A blue short-sleeve polo with a three-button placket and a small lime tree emblem on the chest.",
+      "category": "top",
+      "subcategory": "polo shirt",
+      "colours": [
+        "blue",
+        "lime"
+      ],
+      "pattern": "solid",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "smart-casual"
+    },
+    "33": {
+      "name": "Sage beige striped Nike tee",
+      "description": "A sage and beige horizontally striped crewneck tee with short sleeves and a small white Nike swoosh.",
+      "category": "top",
+      "subcategory": "t-shirt",
+      "colours": [
+        "sage",
+        "beige",
+        "white"
+      ],
+      "pattern": "stripe",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "casual"
+    }
+  }
+}

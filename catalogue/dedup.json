@@ -1,0 +1,800 @@
+{
+  "model": "openai/gpt-6-astra",
+  "source_manifest": "manifest.json",
+  "n_rows": 68,
+  "coverage_problems": [
+    "groups with no rows: 2"
+  ],
+  "groups": [
+    {
+      "rows": [
+        0
+      ],
+      "label": "grey marl short-sleeve polo",
+      "confidence": "high",
+      "reason": "The grey marl polo is distinct from the blue polo appearing in the transition image row_0_alt2, listed separately.",
+      "sides": [
+        {
+          "image": "row_0",
+          "side": "back"
+        },
+        {
+          "image": "row_0_alt0",
+          "side": "front"
+        },
+        {
+          "image": "row_0_alt1",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        1
+      ],
+      "label": "purple Paul G. Allen School tee",
+      "confidence": "high",
+      "reason": "Purple school-text tee with a white sleeve emblem; the striped tee in row_1_alt2 is a separate garment.",
+      "sides": [
+        {
+          "image": "row_1",
+          "side": "front"
+        },
+        {
+          "image": "row_1_alt0",
+          "side": "unclear"
+        },
+        {
+          "image": "row_1_alt1",
+          "side": "back"
+        }
+      ]
+    },
+    {
+      "rows": [
+        2
+      ],
+      "label": "navy number 95 sports jersey",
+      "confidence": "high",
+      "reason": "White V-neck trim, tree chest emblem, sleeve patch and large rear number 95.",
+      "sides": [
+        {
+          "image": "row_2",
+          "side": "front"
+        },
+        {
+          "image": "row_2_alt0",
+          "side": "front"
+        },
+        {
+          "image": "row_2_alt1",
+          "side": "front"
+        },
+        {
+          "image": "row_2_alt2",
+          "side": "back"
+        }
+      ]
+    },
+    {
+      "rows": [
+        4
+      ],
+      "label": "charcoal pullover hoodie",
+      "confidence": "high",
+      "reason": "Dark heather fabric, white drawstrings and kangaroo pocket.",
+      "sides": [
+        {
+          "image": "row_4",
+          "side": "back"
+        },
+        {
+          "image": "row_4_alt0",
+          "side": "back"
+        },
+        {
+          "image": "row_4_alt1",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        5,
+        27,
+        30
+      ],
+      "label": "multicolour geometric tapestry jacket",
+      "confidence": "high",
+      "reason": "Identical red, teal, rust and cream diamond-and-zigzag patchwork, with white snaps and flap chest pockets; rows 30 show its matching patterned back.",
+      "sides": [
+        {
+          "image": "row_5",
+          "side": "front"
+        },
+        {
+          "image": "row_5_alt0",
+          "side": "front"
+        },
+        {
+          "image": "row_27",
+          "side": "front"
+        },
+        {
+          "image": "row_30",
+          "side": "back"
+        },
+        {
+          "image": "row_30_alt0",
+          "side": "back"
+        }
+      ]
+    },
+    {
+      "rows": [
+        6,
+        60
+      ],
+      "label": "black shell jacket with grey trim",
+      "confidence": "high",
+      "reason": "Matching pale central zipper, grey underarm panels, narrow zipped pockets and looped hood drawcord.",
+      "sides": [
+        {
+          "image": "row_6",
+          "side": "front"
+        },
+        {
+          "image": "row_6_alt0",
+          "side": "front"
+        },
+        {
+          "image": "row_6_alt1",
+          "side": "unclear"
+        },
+        {
+          "image": "row_27_alt0",
+          "side": "front"
+        },
+        {
+          "image": "row_60",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        7
+      ],
+      "label": "black Qdrant logo tee",
+      "confidence": "high",
+      "reason": "Small white Qdrant chest logo and plain back.",
+      "sides": [
+        {
+          "image": "row_7",
+          "side": "front"
+        },
+        {
+          "image": "row_7_alt0",
+          "side": "back"
+        },
+        {
+          "image": "row_7_alt1",
+          "side": "back"
+        }
+      ]
+    },
+    {
+      "rows": [
+        8,
+        59
+      ],
+      "label": "sage striped long-sleeve polo",
+      "confidence": "high",
+      "reason": "Same narrow cream chest-and-sleeve stripes, sage fabric, dark buttons and rectangular neck label.",
+      "sides": [
+        {
+          "image": "row_8",
+          "side": "front"
+        },
+        {
+          "image": "row_8_alt0",
+          "side": "back"
+        },
+        {
+          "image": "row_8_alt1",
+          "side": "back"
+        },
+        {
+          "image": "row_14_alt1",
+          "side": "front"
+        },
+        {
+          "image": "row_59",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        9
+      ],
+      "label": "light grey pullover hoodie",
+      "confidence": "high",
+      "reason": "Light grey marl fabric, cream drawstrings and kangaroo pocket distinguish it from the charcoal hoodie.",
+      "sides": [
+        {
+          "image": "row_9",
+          "side": "front"
+        },
+        {
+          "image": "row_9_alt0",
+          "side": "back"
+        }
+      ]
+    },
+    {
+      "rows": [
+        10
+      ],
+      "label": "pale cream Abercrombie crewneck tee",
+      "confidence": "high",
+      "reason": "The visible sewn Abercrombie neck label distinguishes this cream tee from the white Quince tee.",
+      "sides": [
+        {
+          "image": "row_10",
+          "side": "unclear"
+        },
+        {
+          "image": "row_10_alt0",
+          "side": "unclear"
+        },
+        {
+          "image": "row_10_alt1",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        11
+      ],
+      "label": "charcoal mock-neck knit sweater",
+      "confidence": "high",
+      "reason": "Fine knit with a raised ribbed neck, ribbed hem and long sleeves.",
+      "sides": [
+        {
+          "image": "row_11",
+          "side": "unclear"
+        },
+        {
+          "image": "row_11_alt0",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        12
+      ],
+      "label": "navy Quince crewneck tee",
+      "confidence": "high",
+      "reason": "Plain navy tee with a visible Quince inner-neck print.",
+      "sides": [
+        {
+          "image": "row_12",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        13
+      ],
+      "label": "white micro-pattern Nike polo",
+      "confidence": "high",
+      "reason": "Tiny repeating pattern, three dark front buttons and a black swoosh beneath the rear collar.",
+      "sides": [
+        {
+          "image": "row_13",
+          "side": "back"
+        },
+        {
+          "image": "row_13_alt0",
+          "side": "front"
+        },
+        {
+          "image": "row_35_alt0",
+          "side": "back"
+        }
+      ]
+    },
+    {
+      "rows": [
+        14
+      ],
+      "label": "plain navy long-sleeve polo",
+      "confidence": "high",
+      "reason": "Solid navy fabric with a pointed polo collar and short dark-button placket.",
+      "sides": [
+        {
+          "image": "row_14",
+          "side": "front"
+        },
+        {
+          "image": "row_14_alt0",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        17,
+        28,
+        34
+      ],
+      "label": "white shirt with multicolour patch panel",
+      "confidence": "high",
+      "reason": "The same outlined-figure patch panel and horizontal brown pocket strip appear in rows 28, 34 and row_17_alt0; row_17_alt1 shows the plain yoke-seamed back immediately after turning.",
+      "sides": [
+        {
+          "image": "row_17",
+          "side": "unclear"
+        },
+        {
+          "image": "row_17_alt0",
+          "side": "front"
+        },
+        {
+          "image": "row_17_alt1",
+          "side": "back"
+        },
+        {
+          "image": "row_28",
+          "side": "front"
+        },
+        {
+          "image": "row_34",
+          "side": "front"
+        },
+        {
+          "image": "row_34_alt0",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        18,
+        31
+      ],
+      "label": "burgundy teddy-bear knit sweater",
+      "confidence": "high",
+      "reason": "Identical knitted bear wearing a brown cap with a white T, with script beneath the bear.",
+      "sides": [
+        {
+          "image": "row_18",
+          "side": "front"
+        },
+        {
+          "image": "row_31",
+          "side": "front"
+        },
+        {
+          "image": "row_31_alt0",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        19
+      ],
+      "label": "green Quince crewneck tee",
+      "confidence": "high",
+      "reason": "Plain green tee with a visible Quince inner-neck print.",
+      "sides": [
+        {
+          "image": "row_19",
+          "side": "unclear"
+        },
+        {
+          "image": "row_19_alt0",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        20,
+        37,
+        44
+      ],
+      "label": "sage single-breasted blazer",
+      "confidence": "high",
+      "reason": "Matching sage fabric, notched lapels, single dark fastening button, chest welt pocket and angled hip-pocket flaps.",
+      "sides": [
+        {
+          "image": "row_20",
+          "side": "front"
+        },
+        {
+          "image": "row_20_alt0",
+          "side": "back"
+        },
+        {
+          "image": "row_37",
+          "side": "front"
+        },
+        {
+          "image": "row_44",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        21,
+        35,
+        66
+      ],
+      "label": "white short-sleeve hooded windbreaker",
+      "confidence": "high",
+      "reason": "Matching lightweight white fabric, short sleeves, high front zipper, hood and long drawcords at the gathered side hems.",
+      "sides": [
+        {
+          "image": "row_21",
+          "side": "back"
+        },
+        {
+          "image": "row_35",
+          "side": "unclear"
+        },
+        {
+          "image": "row_66",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        22,
+        56
+      ],
+      "label": "white Jeep hooded jacket",
+      "confidence": "high",
+      "reason": "Same white hooded shell and panel construction, shown front and back seconds apart; the front has Jeep branding, black snaps and long black zipped pockets.",
+      "sides": [
+        {
+          "image": "row_22",
+          "side": "front"
+        },
+        {
+          "image": "row_56",
+          "side": "back"
+        }
+      ]
+    },
+    {
+      "rows": [
+        23,
+        32,
+        46
+      ],
+      "label": "off-white long-sleeve crewneck",
+      "confidence": "high",
+      "reason": "Matching substantial crewneck ribbing, dropped shoulders and long sleeves in the continuous 67\u201372 second presentation.",
+      "sides": [
+        {
+          "image": "row_23",
+          "side": "unclear"
+        },
+        {
+          "image": "row_23_alt0",
+          "side": "front"
+        },
+        {
+          "image": "row_32",
+          "side": "back"
+        },
+        {
+          "image": "row_46",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        24,
+        58
+      ],
+      "label": "blue-grey abstract patterned short-sleeve shirt",
+      "confidence": "high",
+      "reason": "Identical irregular pale crosshatch pattern on blue-grey fabric, pointed collar and short sleeves; row 58 shows the matching yoke-seamed back.",
+      "sides": [
+        {
+          "image": "row_24",
+          "side": "front"
+        },
+        {
+          "image": "row_33_alt0",
+          "side": "front"
+        },
+        {
+          "image": "row_44_alt0",
+          "side": "front"
+        },
+        {
+          "image": "row_58",
+          "side": "back"
+        }
+      ]
+    },
+    {
+      "rows": [
+        25,
+        53
+      ],
+      "label": "cream textured trucker jacket",
+      "confidence": "high",
+      "reason": "Same cream slubbed fabric, pointed collar, dark ringed buttons and flap chest-pocket construction, being pulled out in row 25 and displayed in row 53.",
+      "sides": [
+        {
+          "image": "row_25",
+          "side": "front"
+        },
+        {
+          "image": "row_53",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        29,
+        41
+      ],
+      "label": "black Washington Huskies long-sleeve tee",
+      "confidence": "medium",
+      "reason": "Large purple-and-gold W and gold HUSKIES sleeve lettering identify the shirt; row 41 continues the same black long-sleeve garment's turn immediately afterward.",
+      "sides": [
+        {
+          "image": "row_29",
+          "side": "front"
+        },
+        {
+          "image": "row_29_alt0",
+          "side": "back"
+        },
+        {
+          "image": "row_29_alt1",
+          "side": "front"
+        },
+        {
+          "image": "row_41",
+          "side": "unclear"
+        }
+      ]
+    },
+    {
+      "rows": [
+        33,
+        42,
+        50
+      ],
+      "label": "brown Levi's trucker jacket",
+      "confidence": "high",
+      "reason": "Matching washed brown fabric, metal buttons, twin pointed chest flaps and red pocket tab; the back has a distinctive deep V-shaped yoke.",
+      "sides": [
+        {
+          "image": "row_33",
+          "side": "front"
+        },
+        {
+          "image": "row_42",
+          "side": "front"
+        },
+        {
+          "image": "row_50",
+          "side": "back"
+        }
+      ]
+    },
+    {
+      "rows": [
+        38
+      ],
+      "label": "cream Steiff teddy-bear tee",
+      "confidence": "high",
+      "reason": "Brown Steiff script above a teddy-bear chest graphic.",
+      "sides": [
+        {
+          "image": "row_38",
+          "side": "front"
+        },
+        {
+          "image": "row_32_alt0",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        39,
+        40,
+        54
+      ],
+      "label": "charcoal Adidas hooded track jacket",
+      "confidence": "high",
+      "reason": "Same white triple sleeve stripes, small white chest emblem, central zipper and hood across adjacent front/back views.",
+      "sides": [
+        {
+          "image": "row_39",
+          "side": "front"
+        },
+        {
+          "image": "row_40",
+          "side": "front"
+        },
+        {
+          "image": "row_54",
+          "side": "back"
+        }
+      ]
+    },
+    {
+      "rows": [
+        43,
+        48
+      ],
+      "label": "ivory corduroy overshirt",
+      "confidence": "high",
+      "reason": "Matching fine vertical corduroy ribs, ivory pointed collar and black buttons; row 48 shows the same textured overshirt being returned after its presentation.",
+      "sides": [
+        {
+          "image": "row_43",
+          "side": "front"
+        },
+        {
+          "image": "row_48",
+          "side": "unclear"
+        }
+      ]
+    },
+    {
+      "rows": [
+        45,
+        55,
+        62
+      ],
+      "label": "olive and yellow Camel hooded jacket",
+      "confidence": "high",
+      "reason": "Identical yellow shoulder-and-sleeve panels, olive body and hood, Camel chest embroidery and circular sleeve patch.",
+      "sides": [
+        {
+          "image": "row_6_alt2",
+          "side": "front"
+        },
+        {
+          "image": "row_45",
+          "side": "front"
+        },
+        {
+          "image": "row_55",
+          "side": "front"
+        },
+        {
+          "image": "row_62",
+          "side": "back"
+        }
+      ]
+    },
+    {
+      "rows": [
+        49,
+        57
+      ],
+      "label": "cream single-breasted blazer",
+      "confidence": "high",
+      "reason": "Cream notched-lapel blazer with a single dark button, turned immediately to reveal its plain centre-seamed back.",
+      "sides": [
+        {
+          "image": "row_49",
+          "side": "back"
+        },
+        {
+          "image": "row_57",
+          "side": "front"
+        },
+        {
+          "image": "row_28_alt0",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        51,
+        65
+      ],
+      "label": "white Quince crewneck tee",
+      "confidence": "high",
+      "reason": "Same white short-sleeve tee, round neck and fabric drape, shown front and back seconds apart; the front reveals the Quince neck print.",
+      "sides": [
+        {
+          "image": "row_51",
+          "side": "front"
+        },
+        {
+          "image": "row_65",
+          "side": "back"
+        },
+        {
+          "image": "row_21_alt0",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        52,
+        64
+      ],
+      "label": "charcoal Ralph Lauren button-down shirt",
+      "confidence": "high",
+      "reason": "Matching red embroidered polo-player logo, pale buttons and button-down collar; row 64 shows the corresponding rear yoke and centre box pleat.",
+      "sides": [
+        {
+          "image": "row_52",
+          "side": "front"
+        },
+        {
+          "image": "row_64",
+          "side": "back"
+        },
+        {
+          "image": "row_18_alt0",
+          "side": "front"
+        },
+        {
+          "image": "row_25_alt0",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [],
+      "label": "blue polo with lime tree emblem",
+      "confidence": "high",
+      "reason": "Presented only in row_0_alt2, a transition image showing a different physical garment from the primary grey polo. No primary row is assigned twice.",
+      "sides": [
+        {
+          "image": "row_0_alt2",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [],
+      "label": "sage and beige striped Nike tee",
+      "confidence": "high",
+      "reason": "Presented only in row_1_alt2, a transition image showing a different physical garment from the purple school tee. No primary row is assigned twice.",
+      "sides": [
+        {
+          "image": "row_1_alt2",
+          "side": "front"
+        }
+      ]
+    }
+  ],
+  "junk_rows": [
+    3,
+    15,
+    16,
+    26,
+    36,
+    47,
+    61,
+    63,
+    67
+  ]
+}

@@ -1,0 +1,800 @@
+{
+  "model": "openai/gpt-5-image-mini",
+  "total_cost_usd": 3.3836,
+  "images": [
+    {
+      "group": 0,
+      "label": "grey marl short-sleeve polo",
+      "view": "back",
+      "rows": [
+        0
+      ],
+      "file": "00_grey_marl_short_sleeve_polo_back.jpg",
+      "cost_usd": 0.0506,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 0,
+      "label": "grey marl short-sleeve polo",
+      "view": "front",
+      "rows": [
+        0
+      ],
+      "file": "00_grey_marl_short_sleeve_polo_front.jpg",
+      "cost_usd": 0.0475,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 1,
+      "label": "purple Paul G. Allen School tee",
+      "view": "back",
+      "rows": [
+        1
+      ],
+      "file": "01_purple_Paul_G__Allen_School_tee_back.jpg",
+      "cost_usd": 0.0519,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 1,
+      "label": "purple Paul G. Allen School tee",
+      "view": "front",
+      "rows": [
+        1
+      ],
+      "file": "01_purple_Paul_G__Allen_School_tee_front.jpg",
+      "cost_usd": 0.0489,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 2,
+      "label": "navy number 95 sports jersey",
+      "view": "back",
+      "rows": [
+        2
+      ],
+      "file": "02_navy_number_95_sports_jersey_back.jpg",
+      "cost_usd": 0.0507,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 2,
+      "label": "navy number 95 sports jersey",
+      "view": "front",
+      "rows": [
+        2
+      ],
+      "file": "02_navy_number_95_sports_jersey_front.jpg",
+      "cost_usd": 0.052,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 3,
+      "label": "charcoal pullover hoodie",
+      "view": "back",
+      "rows": [
+        4
+      ],
+      "file": "03_charcoal_pullover_hoodie_back.jpg",
+      "cost_usd": 0.048,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 3,
+      "label": "charcoal pullover hoodie",
+      "view": "front",
+      "rows": [
+        4
+      ],
+      "file": "03_charcoal_pullover_hoodie_front.jpg",
+      "cost_usd": 0.0499,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 4,
+      "label": "multicolour geometric tapestry jacket",
+      "view": "back",
+      "rows": [
+        5,
+        27,
+        30
+      ],
+      "file": "04_multicolour_geometric_tapestry_jacket_back.jpg",
+      "cost_usd": 0.0504,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 4,
+      "label": "multicolour geometric tapestry jacket",
+      "view": "front",
+      "rows": [
+        5,
+        27,
+        30
+      ],
+      "file": "04_multicolour_geometric_tapestry_jacket_front.jpg",
+      "cost_usd": 0.052,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 5,
+      "label": "black shell jacket with grey trim",
+      "view": "back",
+      "rows": [
+        6,
+        60
+      ],
+      "file": "05_black_shell_jacket_with_grey_trim_back.jpg",
+      "cost_usd": 0.0501,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 5,
+      "label": "black shell jacket with grey trim",
+      "view": "front",
+      "rows": [
+        6,
+        60
+      ],
+      "file": "05_black_shell_jacket_with_grey_trim_front.jpg",
+      "cost_usd": 0.0522,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 6,
+      "label": "black Qdrant logo tee",
+      "view": "back",
+      "rows": [
+        7
+      ],
+      "file": "06_black_Qdrant_logo_tee_back.jpg",
+      "cost_usd": 0.0477,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 6,
+      "label": "black Qdrant logo tee",
+      "view": "front",
+      "rows": [
+        7
+      ],
+      "file": "06_black_Qdrant_logo_tee_front.jpg",
+      "cost_usd": 0.0495,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 7,
+      "label": "sage striped long-sleeve polo",
+      "view": "back",
+      "rows": [
+        8,
+        59
+      ],
+      "file": "07_sage_striped_long_sleeve_polo_back.jpg",
+      "cost_usd": 0.0529,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 7,
+      "label": "sage striped long-sleeve polo",
+      "view": "front",
+      "rows": [
+        8,
+        59
+      ],
+      "file": "07_sage_striped_long_sleeve_polo_front.jpg",
+      "cost_usd": 0.0475,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 8,
+      "label": "light grey pullover hoodie",
+      "view": "back",
+      "rows": [
+        9
+      ],
+      "file": "08_light_grey_pullover_hoodie_back.jpg",
+      "cost_usd": 0.0504,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 8,
+      "label": "light grey pullover hoodie",
+      "view": "front",
+      "rows": [
+        9
+      ],
+      "file": "08_light_grey_pullover_hoodie_front.jpg",
+      "cost_usd": 0.044,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 9,
+      "label": "pale cream Abercrombie crewneck tee",
+      "view": "back",
+      "rows": [
+        10
+      ],
+      "file": "09_pale_cream_Abercrombie_crewneck_tee_back.jpg",
+      "cost_usd": 0.0487,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 9,
+      "label": "pale cream Abercrombie crewneck tee",
+      "view": "front",
+      "rows": [
+        10
+      ],
+      "file": "09_pale_cream_Abercrombie_crewneck_tee_front.jpg",
+      "cost_usd": 0.0496,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 10,
+      "label": "charcoal mock-neck knit sweater",
+      "view": "back",
+      "rows": [
+        11
+      ],
+      "file": "10_charcoal_mock_neck_knit_sweater_back.jpg",
+      "cost_usd": 0.0505,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 10,
+      "label": "charcoal mock-neck knit sweater",
+      "view": "front",
+      "rows": [
+        11
+      ],
+      "file": "10_charcoal_mock_neck_knit_sweater_front.jpg",
+      "cost_usd": 0.0479,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 11,
+      "label": "navy Quince crewneck tee",
+      "view": "back",
+      "rows": [
+        12
+      ],
+      "file": "11_navy_Quince_crewneck_tee_back.jpg",
+      "cost_usd": 0.0496,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 11,
+      "label": "navy Quince crewneck tee",
+      "view": "front",
+      "rows": [
+        12
+      ],
+      "file": "11_navy_Quince_crewneck_tee_front.jpg",
+      "cost_usd": 0.045,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 12,
+      "label": "white micro-pattern Nike polo",
+      "view": "back",
+      "rows": [
+        13
+      ],
+      "file": "12_white_micro_pattern_Nike_polo_back.jpg",
+      "cost_usd": 0.0475,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 12,
+      "label": "white micro-pattern Nike polo",
+      "view": "front",
+      "rows": [
+        13
+      ],
+      "file": "12_white_micro_pattern_Nike_polo_front.jpg",
+      "cost_usd": 0.0527,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 13,
+      "label": "plain navy long-sleeve polo",
+      "view": "back",
+      "rows": [
+        14
+      ],
+      "file": "13_plain_navy_long_sleeve_polo_back.jpg",
+      "cost_usd": 0.0522,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 13,
+      "label": "plain navy long-sleeve polo",
+      "view": "front",
+      "rows": [
+        14
+      ],
+      "file": "13_plain_navy_long_sleeve_polo_front.jpg",
+      "cost_usd": 0.0471,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 14,
+      "label": "white shirt with multicolour patch panel",
+      "view": "back",
+      "rows": [
+        17,
+        28,
+        34
+      ],
+      "file": "14_white_shirt_with_multicolour_patch_panel_back.jpg",
+      "cost_usd": 0.0526,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 14,
+      "label": "white shirt with multicolour patch panel",
+      "view": "front",
+      "rows": [
+        17,
+        28,
+        34
+      ],
+      "file": "14_white_shirt_with_multicolour_patch_panel_front.jpg",
+      "cost_usd": 0.0497,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 15,
+      "label": "burgundy teddy-bear knit sweater",
+      "view": "back",
+      "rows": [
+        18,
+        31
+      ],
+      "file": "15_burgundy_teddy_bear_knit_sweater_back.jpg",
+      "cost_usd": 0.0535,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 15,
+      "label": "burgundy teddy-bear knit sweater",
+      "view": "front",
+      "rows": [
+        18,
+        31
+      ],
+      "file": "15_burgundy_teddy_bear_knit_sweater_front.jpg",
+      "cost_usd": 0.0488,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 16,
+      "label": "green Quince crewneck tee",
+      "view": "back",
+      "rows": [
+        19
+      ],
+      "file": "16_green_Quince_crewneck_tee_back.jpg",
+      "cost_usd": 0.0508,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 16,
+      "label": "green Quince crewneck tee",
+      "view": "front",
+      "rows": [
+        19
+      ],
+      "file": "16_green_Quince_crewneck_tee_front.jpg",
+      "cost_usd": 0.0463,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 17,
+      "label": "sage single-breasted blazer",
+      "view": "back",
+      "rows": [
+        20,
+        37,
+        44
+      ],
+      "file": "17_sage_single_breasted_blazer_back.jpg",
+      "cost_usd": 0.0513,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 17,
+      "label": "sage single-breasted blazer",
+      "view": "front",
+      "rows": [
+        20,
+        37,
+        44
+      ],
+      "file": "17_sage_single_breasted_blazer_front.jpg",
+      "cost_usd": 0.0481,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 18,
+      "label": "white short-sleeve hooded windbreaker",
+      "view": "back",
+      "rows": [
+        21,
+        35,
+        66
+      ],
+      "file": "18_white_short_sleeve_hooded_windbreaker_back.jpg",
+      "cost_usd": 0.0527,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 18,
+      "label": "white short-sleeve hooded windbreaker",
+      "view": "front",
+      "rows": [
+        21,
+        35,
+        66
+      ],
+      "file": "18_white_short_sleeve_hooded_windbreaker_front.jpg",
+      "cost_usd": 0.0489,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 19,
+      "label": "white Jeep hooded jacket",
+      "view": "back",
+      "rows": [
+        22,
+        56
+      ],
+      "file": "19_white_Jeep_hooded_jacket_back.jpg",
+      "cost_usd": 0.0517,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 19,
+      "label": "white Jeep hooded jacket",
+      "view": "front",
+      "rows": [
+        22,
+        56
+      ],
+      "file": "19_white_Jeep_hooded_jacket_front.jpg",
+      "cost_usd": 0.0468,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 20,
+      "label": "off-white long-sleeve crewneck",
+      "view": "back",
+      "rows": [
+        23,
+        32,
+        46
+      ],
+      "file": "20_off_white_long_sleeve_crewneck_back.jpg",
+      "cost_usd": 0.0533,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 20,
+      "label": "off-white long-sleeve crewneck",
+      "view": "front",
+      "rows": [
+        23,
+        32,
+        46
+      ],
+      "file": "20_off_white_long_sleeve_crewneck_front.jpg",
+      "cost_usd": 0.0481,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 21,
+      "label": "blue-grey abstract patterned short-sleeve shirt",
+      "view": "back",
+      "rows": [
+        24,
+        58
+      ],
+      "file": "21_blue_grey_abstract_patterned_short_sleev_back.jpg",
+      "cost_usd": 0.0521,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 21,
+      "label": "blue-grey abstract patterned short-sleeve shirt",
+      "view": "front",
+      "rows": [
+        24,
+        58
+      ],
+      "file": "21_blue_grey_abstract_patterned_short_sleev_front.jpg",
+      "cost_usd": 0.0478,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 22,
+      "label": "cream textured trucker jacket",
+      "view": "back",
+      "rows": [
+        25,
+        53
+      ],
+      "file": "22_cream_textured_trucker_jacket_back.jpg",
+      "cost_usd": 0.0521,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 22,
+      "label": "cream textured trucker jacket",
+      "view": "front",
+      "rows": [
+        25,
+        53
+      ],
+      "file": "22_cream_textured_trucker_jacket_front.jpg",
+      "cost_usd": 0.0499,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 23,
+      "label": "black Washington Huskies long-sleeve tee",
+      "view": "back",
+      "rows": [
+        29,
+        41
+      ],
+      "file": "23_black_Washington_Huskies_long_sleeve_tee_back.jpg",
+      "cost_usd": 0.0526,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 23,
+      "label": "black Washington Huskies long-sleeve tee",
+      "view": "front",
+      "rows": [
+        29,
+        41
+      ],
+      "file": "23_black_Washington_Huskies_long_sleeve_tee_front.jpg",
+      "cost_usd": 0.0472,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 24,
+      "label": "brown Levi's trucker jacket",
+      "view": "back",
+      "rows": [
+        33,
+        42,
+        50
+      ],
+      "file": "24_brown_Levi_s_trucker_jacket_back.jpg",
+      "cost_usd": 0.0517,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 24,
+      "label": "brown Levi's trucker jacket",
+      "view": "front",
+      "rows": [
+        33,
+        42,
+        50
+      ],
+      "file": "24_brown_Levi_s_trucker_jacket_front.jpg",
+      "cost_usd": 0.0519,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 25,
+      "label": "cream Steiff teddy-bear tee",
+      "view": "back",
+      "rows": [
+        38
+      ],
+      "file": "25_cream_Steiff_teddy_bear_tee_back.jpg",
+      "cost_usd": 0.0507,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 25,
+      "label": "cream Steiff teddy-bear tee",
+      "view": "front",
+      "rows": [
+        38
+      ],
+      "file": "25_cream_Steiff_teddy_bear_tee_front.jpg",
+      "cost_usd": 0.0454,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 26,
+      "label": "charcoal Adidas hooded track jacket",
+      "view": "back",
+      "rows": [
+        39,
+        40,
+        54
+      ],
+      "file": "26_charcoal_Adidas_hooded_track_jacket_back.jpg",
+      "cost_usd": 0.0502,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 26,
+      "label": "charcoal Adidas hooded track jacket",
+      "view": "front",
+      "rows": [
+        39,
+        40,
+        54
+      ],
+      "file": "26_charcoal_Adidas_hooded_track_jacket_front.jpg",
+      "cost_usd": 0.0513,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 27,
+      "label": "ivory corduroy overshirt",
+      "view": "back",
+      "rows": [
+        43,
+        48
+      ],
+      "file": "27_ivory_corduroy_overshirt_back.jpg",
+      "cost_usd": 0.0527,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 27,
+      "label": "ivory corduroy overshirt",
+      "view": "front",
+      "rows": [
+        43,
+        48
+      ],
+      "file": "27_ivory_corduroy_overshirt_front.jpg",
+      "cost_usd": 0.05,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 28,
+      "label": "olive and yellow Camel hooded jacket",
+      "view": "back",
+      "rows": [
+        45,
+        55,
+        62
+      ],
+      "file": "28_olive_and_yellow_Camel_hooded_jacket_back.jpg",
+      "cost_usd": 0.0494,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 28,
+      "label": "olive and yellow Camel hooded jacket",
+      "view": "front",
+      "rows": [
+        45,
+        55,
+        62
+      ],
+      "file": "28_olive_and_yellow_Camel_hooded_jacket_front.jpg",
+      "cost_usd": 0.0493,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 29,
+      "label": "cream single-breasted blazer",
+      "view": "back",
+      "rows": [
+        49,
+        57
+      ],
+      "file": "29_cream_single_breasted_blazer_back.jpg",
+      "cost_usd": 0.0503,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 29,
+      "label": "cream single-breasted blazer",
+      "view": "front",
+      "rows": [
+        49,
+        57
+      ],
+      "file": "29_cream_single_breasted_blazer_front.jpg",
+      "cost_usd": 0.0454,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 30,
+      "label": "white Quince crewneck tee",
+      "view": "back",
+      "rows": [
+        51,
+        65
+      ],
+      "file": "30_white_Quince_crewneck_tee_back.jpg",
+      "cost_usd": 0.0492,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 30,
+      "label": "white Quince crewneck tee",
+      "view": "front",
+      "rows": [
+        51,
+        65
+      ],
+      "file": "30_white_Quince_crewneck_tee_front.jpg",
+      "cost_usd": 0.0473,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 31,
+      "label": "charcoal Ralph Lauren button-down shirt",
+      "view": "back",
+      "rows": [
+        52,
+        64
+      ],
+      "file": "31_charcoal_Ralph_Lauren_button_down_shirt_back.jpg",
+      "cost_usd": 0.05,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 31,
+      "label": "charcoal Ralph Lauren button-down shirt",
+      "view": "front",
+      "rows": [
+        52,
+        64
+      ],
+      "file": "31_charcoal_Ralph_Lauren_button_down_shirt_front.jpg",
+      "cost_usd": 0.0503,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 32,
+      "label": "blue polo with lime tree emblem",
+      "view": "back",
+      "rows": [],
+      "file": "32_blue_polo_with_lime_tree_emblem_back.jpg",
+      "cost_usd": 0.0507,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 32,
+      "label": "blue polo with lime tree emblem",
+      "view": "front",
+      "rows": [],
+      "file": "32_blue_polo_with_lime_tree_emblem_front.jpg",
+      "cost_usd": 0.0481,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 33,
+      "label": "sage and beige striped Nike tee",
+      "view": "back",
+      "rows": [],
+      "file": "33_sage_and_beige_striped_Nike_tee_back.jpg",
+      "cost_usd": 0.051,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 33,
+      "label": "sage and beige striped Nike tee",
+      "view": "front",
+      "rows": [],
+      "file": "33_sage_and_beige_striped_Nike_tee_front.jpg",
+      "cost_usd": 0.0475,
+      "model": "openai/gpt-5-image-mini"
+    }
+  ]
+}

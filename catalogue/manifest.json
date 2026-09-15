@@ -1,0 +1,1140 @@
+{
+  "config": {
+    "sample_fps": 4.0,
+    "max_frame_width": 1280,
+    "blur_percentile": 25.0,
+    "blur_rel_floor": 0.35,
+    "segment_sensitivity": 1.2,
+    "segment_similarity": null,
+    "min_segment_frames": 3,
+    "cluster_distance": null,
+    "gap_floor": 0.0001,
+    "merge_sensitivity": 0.0,
+    "merge_min_samples": 8,
+    "fallback_percentile": 20.0,
+    "gap_min_ratio": 4.0,
+    "views_per_garment": 3,
+    "view_min_distance": 0.08,
+    "stitch_max_seconds": 0.4,
+    "view_quality_percentile": 60.0,
+    "view_prefer_spread": false,
+    "view_min_seconds": 1.0,
+    "w_sharpness": 0.5,
+    "w_area": 0.2,
+    "w_exposure": 0.15,
+    "w_centrality": 0.15
+  },
+  "embedder": "dinov2",
+  "n_frames": 1120,
+  "garments": [
+    {
+      "id": 0,
+      "views": [
+        {
+          "file": "shots/garment_000_view0.jpg",
+          "timestamp_s": 134.77
+        },
+        {
+          "file": "shots/garment_000_view1.jpg",
+          "timestamp_s": 133.6
+        },
+        {
+          "file": "shots/garment_000_view2.jpg",
+          "timestamp_s": 142.01
+        }
+      ],
+      "best_shot": "shots/garment_000.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 135.94,
+      "quality": 0.5022,
+      "observations": 55,
+      "tracklets": [
+        24
+      ],
+      "revisited": false
+    },
+    {
+      "id": 1,
+      "views": [
+        {
+          "file": "shots/garment_001_view0.jpg",
+          "timestamp_s": 169.1
+        },
+        {
+          "file": "shots/garment_001_view1.jpg",
+          "timestamp_s": 171.67
+        },
+        {
+          "file": "shots/garment_001_view2.jpg",
+          "timestamp_s": 175.41
+        }
+      ],
+      "best_shot": "shots/garment_001.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 167.93,
+      "quality": 0.5467,
+      "observations": 54,
+      "tracklets": [
+        27
+      ],
+      "revisited": false
+    },
+    {
+      "id": 2,
+      "views": [
+        {
+          "file": "shots/garment_002_view0.jpg",
+          "timestamp_s": 157.89
+        },
+        {
+          "file": "shots/garment_002_view1.jpg",
+          "timestamp_s": 160.93
+        },
+        {
+          "file": "shots/garment_002_view2.jpg",
+          "timestamp_s": 162.1
+        }
+      ],
+      "best_shot": "shots/garment_002.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 159.06,
+      "quality": 0.5604,
+      "observations": 40,
+      "tracklets": [
+        26
+      ],
+      "revisited": false
+    },
+    {
+      "id": 3,
+      "views": [
+        {
+          "file": "shots/garment_003_view0.jpg",
+          "timestamp_s": 334.7
+        }
+      ],
+      "best_shot": "shots/garment_003.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 331.2,
+      "quality": 0.487,
+      "observations": 38,
+      "tracklets": [
+        64
+      ],
+      "revisited": false
+    },
+    {
+      "id": 4,
+      "views": [
+        {
+          "file": "shots/garment_004_view0.jpg",
+          "timestamp_s": 125.66
+        },
+        {
+          "file": "shots/garment_004_view1.jpg",
+          "timestamp_s": 124.26
+        }
+      ],
+      "best_shot": "shots/garment_004.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 127.53,
+      "quality": 0.5042,
+      "observations": 30,
+      "tracklets": [
+        23
+      ],
+      "revisited": false
+    },
+    {
+      "id": 5,
+      "views": [
+        {
+          "file": "shots/garment_005_view0.jpg",
+          "timestamp_s": 205.77
+        }
+      ],
+      "best_shot": "shots/garment_005.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 207.41,
+      "quality": 0.7748,
+      "observations": 29,
+      "tracklets": [
+        34
+      ],
+      "revisited": false
+    },
+    {
+      "id": 6,
+      "views": [
+        {
+          "file": "shots/garment_006_view0.jpg",
+          "timestamp_s": 222.36
+        },
+        {
+          "file": "shots/garment_006_view1.jpg",
+          "timestamp_s": 224.69
+        },
+        {
+          "file": "shots/garment_006_view2.jpg",
+          "timestamp_s": 225.86
+        }
+      ],
+      "best_shot": "shots/garment_006.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 223.52,
+      "quality": 0.5549,
+      "observations": 28,
+      "tracklets": [
+        38
+      ],
+      "revisited": false
+    },
+    {
+      "id": 7,
+      "views": [
+        {
+          "file": "shots/garment_007_view0.jpg",
+          "timestamp_s": 150.65
+        },
+        {
+          "file": "shots/garment_007_view1.jpg",
+          "timestamp_s": 151.82
+        }
+      ],
+      "best_shot": "shots/garment_007.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 149.48,
+      "quality": 0.5224,
+      "observations": 27,
+      "tracklets": [
+        25
+      ],
+      "revisited": false
+    },
+    {
+      "id": 8,
+      "views": [
+        {
+          "file": "shots/garment_008_view0.jpg",
+          "timestamp_s": 33.87
+        },
+        {
+          "file": "shots/garment_008_view1.jpg",
+          "timestamp_s": 35.27
+        }
+      ],
+      "best_shot": "shots/garment_008.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 32.0,
+      "quality": 0.4996,
+      "observations": 26,
+      "tracklets": [
+        4
+      ],
+      "revisited": false
+    },
+    {
+      "id": 9,
+      "views": [
+        {
+          "file": "shots/garment_009_view0.jpg",
+          "timestamp_s": 63.06
+        }
+      ],
+      "best_shot": "shots/garment_009.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 59.09,
+      "quality": 0.483,
+      "observations": 26,
+      "tracklets": [
+        10
+      ],
+      "revisited": false
+    },
+    {
+      "id": 10,
+      "views": [
+        {
+          "file": "shots/garment_010_view0.jpg",
+          "timestamp_s": 313.68
+        },
+        {
+          "file": "shots/garment_010_view1.jpg",
+          "timestamp_s": 312.51
+        }
+      ],
+      "best_shot": "shots/garment_010.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 315.31,
+      "quality": 0.4881,
+      "observations": 25,
+      "tracklets": [
+        61
+      ],
+      "revisited": false
+    },
+    {
+      "id": 11,
+      "views": [
+        {
+          "file": "shots/garment_011_view0.jpg",
+          "timestamp_s": 8.64
+        }
+      ],
+      "best_shot": "shots/garment_011.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 9.81,
+      "quality": 0.4655,
+      "observations": 21,
+      "tracklets": [
+        1
+      ],
+      "revisited": false
+    },
+    {
+      "id": 12,
+      "views": [],
+      "best_shot": "shots/garment_012.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 342.88,
+      "quality": 0.5004,
+      "observations": 20,
+      "tracklets": [
+        67
+      ],
+      "revisited": false
+    },
+    {
+      "id": 13,
+      "views": [
+        {
+          "file": "shots/garment_013_view0.jpg",
+          "timestamp_s": 87.82
+        }
+      ],
+      "best_shot": "shots/garment_013.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 89.69,
+      "quality": 0.467,
+      "observations": 18,
+      "tracklets": [
+        15
+      ],
+      "revisited": false
+    },
+    {
+      "id": 14,
+      "views": [
+        {
+          "file": "shots/garment_014_view0.jpg",
+          "timestamp_s": 24.29
+        },
+        {
+          "file": "shots/garment_014_view1.jpg",
+          "timestamp_s": 28.73
+        }
+      ],
+      "best_shot": "shots/garment_014.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 25.46,
+      "quality": 0.4439,
+      "observations": 18,
+      "tracklets": [
+        3
+      ],
+      "revisited": false
+    },
+    {
+      "id": 15,
+      "views": [],
+      "best_shot": "shots/garment_015.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 0.0,
+      "quality": 0.629,
+      "observations": 18,
+      "tracklets": [
+        0
+      ],
+      "revisited": false
+    },
+    {
+      "id": 16,
+      "views": [
+        {
+          "file": "shots/garment_016_view0.jpg",
+          "timestamp_s": 309.24
+        }
+      ],
+      "best_shot": "shots/garment_016.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 308.07,
+      "quality": 0.51,
+      "observations": 16,
+      "tracklets": [
+        60
+      ],
+      "revisited": false
+    },
+    {
+      "id": 17,
+      "views": [
+        {
+          "file": "shots/garment_017_view0.jpg",
+          "timestamp_s": 280.05
+        },
+        {
+          "file": "shots/garment_017_view1.jpg",
+          "timestamp_s": 278.65
+        }
+      ],
+      "best_shot": "shots/garment_017.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 282.15,
+      "quality": 0.513,
+      "observations": 15,
+      "tracklets": [
+        54
+      ],
+      "revisited": false
+    },
+    {
+      "id": 18,
+      "views": [
+        {
+          "file": "shots/garment_018_view0.jpg",
+          "timestamp_s": 189.42
+        }
+      ],
+      "best_shot": "shots/garment_018.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 186.85,
+      "quality": 0.4801,
+      "observations": 15,
+      "tracklets": [
+        29
+      ],
+      "revisited": false
+    },
+    {
+      "id": 19,
+      "views": [
+        {
+          "file": "shots/garment_019_view0.jpg",
+          "timestamp_s": 321.85
+        }
+      ],
+      "best_shot": "shots/garment_019.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 323.26,
+      "quality": 0.488,
+      "observations": 14,
+      "tracklets": [
+        63
+      ],
+      "revisited": false
+    },
+    {
+      "id": 20,
+      "views": [
+        {
+          "file": "shots/garment_020_view0.jpg",
+          "timestamp_s": 259.49
+        }
+      ],
+      "best_shot": "shots/garment_020.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 261.36,
+      "quality": 0.4972,
+      "observations": 14,
+      "tracklets": [
+        49
+      ],
+      "revisited": false
+    },
+    {
+      "id": 21,
+      "views": [
+        {
+          "file": "shots/garment_021_view0.jpg",
+          "timestamp_s": 103.0
+        }
+      ],
+      "best_shot": "shots/garment_021.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 98.33,
+      "quality": 0.4414,
+      "observations": 14,
+      "tracklets": [
+        18
+      ],
+      "revisited": false
+    },
+    {
+      "id": 22,
+      "views": [],
+      "best_shot": "shots/garment_022.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 296.4,
+      "quality": 0.4944,
+      "observations": 13,
+      "tracklets": [
+        57
+      ],
+      "revisited": false
+    },
+    {
+      "id": 23,
+      "views": [
+        {
+          "file": "shots/garment_023_view0.jpg",
+          "timestamp_s": 68.44
+        }
+      ],
+      "best_shot": "shots/garment_023.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 67.03,
+      "quality": 0.4571,
+      "observations": 13,
+      "tracklets": [
+        11
+      ],
+      "revisited": false
+    },
+    {
+      "id": 24,
+      "views": [],
+      "best_shot": "shots/garment_024.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 248.28,
+      "quality": 0.712,
+      "observations": 13,
+      "tracklets": [
+        45
+      ],
+      "revisited": false
+    },
+    {
+      "id": 25,
+      "views": [
+        {
+          "file": "shots/garment_025_view0.jpg",
+          "timestamp_s": 193.86
+        }
+      ],
+      "best_shot": "shots/garment_025.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 196.2,
+      "quality": 0.4608,
+      "observations": 13,
+      "tracklets": [
+        32
+      ],
+      "revisited": false
+    },
+    {
+      "id": 26,
+      "views": [
+        {
+          "file": "shots/garment_026_view0.jpg",
+          "timestamp_s": 54.19
+        }
+      ],
+      "best_shot": "shots/garment_026.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 53.02,
+      "quality": 0.4554,
+      "observations": 13,
+      "tracklets": [
+        9
+      ],
+      "revisited": false
+    },
+    {
+      "id": 27,
+      "views": [
+        {
+          "file": "shots/garment_027_view0.jpg",
+          "timestamp_s": 215.11
+        }
+      ],
+      "best_shot": "shots/garment_027.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 212.55,
+      "quality": 0.5806,
+      "observations": 12,
+      "tracklets": [
+        36
+      ],
+      "revisited": false
+    },
+    {
+      "id": 28,
+      "views": [
+        {
+          "file": "shots/garment_028_view0.jpg",
+          "timestamp_s": 270.94
+        }
+      ],
+      "best_shot": "shots/garment_028.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 275.14,
+      "quality": 0.461,
+      "observations": 12,
+      "tracklets": [
+        52
+      ],
+      "revisited": false
+    },
+    {
+      "id": 29,
+      "views": [
+        {
+          "file": "shots/garment_029_view0.jpg",
+          "timestamp_s": 115.62
+        },
+        {
+          "file": "shots/garment_029_view1.jpg",
+          "timestamp_s": 111.88
+        }
+      ],
+      "best_shot": "shots/garment_029.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 113.98,
+      "quality": 0.4623,
+      "observations": 12,
+      "tracklets": [
+        21
+      ],
+      "revisited": false
+    },
+    {
+      "id": 30,
+      "views": [
+        {
+          "file": "shots/garment_030_view0.jpg",
+          "timestamp_s": 209.74
+        }
+      ],
+      "best_shot": "shots/garment_030.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 210.91,
+      "quality": 0.9391,
+      "observations": 12,
+      "tracklets": [
+        35
+      ],
+      "revisited": false
+    },
+    {
+      "id": 31,
+      "views": [
+        {
+          "file": "shots/garment_031_view0.jpg",
+          "timestamp_s": 183.35
+        }
+      ],
+      "best_shot": "shots/garment_031.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 184.52,
+      "quality": 0.4793,
+      "observations": 12,
+      "tracklets": [
+        28
+      ],
+      "revisited": false
+    },
+    {
+      "id": 32,
+      "views": [
+        {
+          "file": "shots/garment_032_view0.jpg",
+          "timestamp_s": 75.91
+        }
+      ],
+      "best_shot": "shots/garment_032.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 72.17,
+      "quality": 0.4585,
+      "observations": 12,
+      "tracklets": [
+        13
+      ],
+      "revisited": false
+    },
+    {
+      "id": 33,
+      "views": [
+        {
+          "file": "shots/garment_033_view0.jpg",
+          "timestamp_s": 243.14
+        }
+      ],
+      "best_shot": "shots/garment_033.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 240.57,
+      "quality": 0.4594,
+      "observations": 10,
+      "tracklets": [
+        44
+      ],
+      "revisited": false
+    },
+    {
+      "id": 34,
+      "views": [
+        {
+          "file": "shots/garment_034_view0.jpg",
+          "timestamp_s": 276.54
+        }
+      ],
+      "best_shot": "shots/garment_034.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 277.71,
+      "quality": 0.4943,
+      "observations": 10,
+      "tracklets": [
+        53
+      ],
+      "revisited": false
+    },
+    {
+      "id": 35,
+      "views": [
+        {
+          "file": "shots/garment_035_view0.jpg",
+          "timestamp_s": 91.79
+        }
+      ],
+      "best_shot": "shots/garment_035.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 94.13,
+      "quality": 0.4401,
+      "observations": 10,
+      "tracklets": [
+        16
+      ],
+      "revisited": false
+    },
+    {
+      "id": 36,
+      "views": [],
+      "best_shot": "shots/garment_036.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 304.34,
+      "quality": 0.6137,
+      "observations": 9,
+      "tracklets": [
+        59
+      ],
+      "revisited": false
+    },
+    {
+      "id": 37,
+      "views": [],
+      "best_shot": "shots/garment_037.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 258.79,
+      "quality": 0.4733,
+      "observations": 9,
+      "tracklets": [
+        48
+      ],
+      "revisited": false
+    },
+    {
+      "id": 38,
+      "views": [],
+      "best_shot": "shots/garment_038.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 78.71,
+      "quality": 0.4504,
+      "observations": 9,
+      "tracklets": [
+        14
+      ],
+      "revisited": false
+    },
+    {
+      "id": 39,
+      "views": [],
+      "best_shot": "shots/garment_039.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 49.75,
+      "quality": 0.4981,
+      "observations": 9,
+      "tracklets": [
+        8
+      ],
+      "revisited": false
+    },
+    {
+      "id": 40,
+      "views": [],
+      "best_shot": "shots/garment_040.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 45.78,
+      "quality": 0.4831,
+      "observations": 9,
+      "tracklets": [
+        6
+      ],
+      "revisited": false
+    },
+    {
+      "id": 41,
+      "views": [],
+      "best_shot": "shots/garment_041.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 116.78,
+      "quality": 0.4504,
+      "observations": 8,
+      "tracklets": [
+        22
+      ],
+      "revisited": false
+    },
+    {
+      "id": 42,
+      "views": [],
+      "best_shot": "shots/garment_042.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 237.07,
+      "quality": 0.4794,
+      "observations": 8,
+      "tracklets": [
+        42
+      ],
+      "revisited": false
+    },
+    {
+      "id": 43,
+      "views": [],
+      "best_shot": "shots/garment_043.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 285.42,
+      "quality": 0.4541,
+      "observations": 7,
+      "tracklets": [
+        55
+      ],
+      "revisited": false
+    },
+    {
+      "id": 44,
+      "views": [
+        {
+          "file": "shots/garment_044_view0.jpg",
+          "timestamp_s": 251.32
+        }
+      ],
+      "best_shot": "shots/garment_044.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 255.99,
+      "quality": 0.4857,
+      "observations": 7,
+      "tracklets": [
+        47
+      ],
+      "revisited": false
+    },
+    {
+      "id": 45,
+      "views": [],
+      "best_shot": "shots/garment_045.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 231.0,
+      "quality": 0.4901,
+      "observations": 7,
+      "tracklets": [
+        41
+      ],
+      "revisited": false
+    },
+    {
+      "id": 46,
+      "views": [],
+      "best_shot": "shots/garment_046.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 70.77,
+      "quality": 0.4596,
+      "observations": 7,
+      "tracklets": [
+        12
+      ],
+      "revisited": false
+    },
+    {
+      "id": 47,
+      "views": [],
+      "best_shot": "shots/garment_047.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 337.97,
+      "quality": 0.5997,
+      "observations": 6,
+      "tracklets": [
+        65
+      ],
+      "revisited": false
+    },
+    {
+      "id": 48,
+      "views": [],
+      "best_shot": "shots/garment_048.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 289.39,
+      "quality": 0.5242,
+      "observations": 6,
+      "tracklets": [
+        56
+      ],
+      "revisited": false
+    },
+    {
+      "id": 49,
+      "views": [],
+      "best_shot": "shots/garment_049.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 269.07,
+      "quality": 0.4463,
+      "observations": 6,
+      "tracklets": [
+        51
+      ],
+      "revisited": false
+    },
+    {
+      "id": 50,
+      "views": [],
+      "best_shot": "shots/garment_050.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 239.41,
+      "quality": 0.4528,
+      "observations": 6,
+      "tracklets": [
+        43
+      ],
+      "revisited": false
+    },
+    {
+      "id": 51,
+      "views": [],
+      "best_shot": "shots/garment_051.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 105.81,
+      "quality": 0.4348,
+      "observations": 6,
+      "tracklets": [
+        19
+      ],
+      "revisited": false
+    },
+    {
+      "id": 52,
+      "views": [],
+      "best_shot": "shots/garment_052.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 191.06,
+      "quality": 0.4436,
+      "observations": 6,
+      "tracklets": [
+        30
+      ],
+      "revisited": false
+    },
+    {
+      "id": 53,
+      "views": [],
+      "best_shot": "shots/garment_053.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 199.0,
+      "quality": 0.482,
+      "observations": 6,
+      "tracklets": [
+        33
+      ],
+      "revisited": false
+    },
+    {
+      "id": 54,
+      "views": [],
+      "best_shot": "shots/garment_054.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 48.35,
+      "quality": 0.4564,
+      "observations": 6,
+      "tracklets": [
+        7
+      ],
+      "revisited": false
+    },
+    {
+      "id": 55,
+      "views": [],
+      "best_shot": "shots/garment_055.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 227.73,
+      "quality": 0.4866,
+      "observations": 6,
+      "tracklets": [
+        39
+      ],
+      "revisited": false
+    },
+    {
+      "id": 56,
+      "views": [],
+      "best_shot": "shots/garment_056.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 298.73,
+      "quality": 0.4399,
+      "observations": 5,
+      "tracklets": [
+        58
+      ],
+      "revisited": false
+    },
+    {
+      "id": 57,
+      "views": [],
+      "best_shot": "shots/garment_057.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 268.37,
+      "quality": 0.4515,
+      "observations": 5,
+      "tracklets": [
+        50
+      ],
+      "revisited": false
+    },
+    {
+      "id": 58,
+      "views": [],
+      "best_shot": "shots/garment_058.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 250.15,
+      "quality": 0.7426,
+      "observations": 5,
+      "tracklets": [
+        46
+      ],
+      "revisited": false
+    },
+    {
+      "id": 59,
+      "views": [],
+      "best_shot": "shots/garment_059.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 36.67,
+      "quality": 0.4633,
+      "observations": 5,
+      "tracklets": [
+        5
+      ],
+      "revisited": false
+    },
+    {
+      "id": 60,
+      "views": [],
+      "best_shot": "shots/garment_060.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 218.62,
+      "quality": 0.4742,
+      "observations": 5,
+      "tracklets": [
+        37
+      ],
+      "revisited": false
+    },
+    {
+      "id": 61,
+      "views": [],
+      "best_shot": "shots/garment_061.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 319.05,
+      "quality": 0.5885,
+      "observations": 4,
+      "tracklets": [
+        62
+      ],
+      "revisited": false
+    },
+    {
+      "id": 62,
+      "views": [],
+      "best_shot": "shots/garment_062.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 229.6,
+      "quality": 0.4267,
+      "observations": 4,
+      "tracklets": [
+        40
+      ],
+      "revisited": false
+    },
+    {
+      "id": 63,
+      "views": [],
+      "best_shot": "shots/garment_063.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 339.84,
+      "quality": 0.4457,
+      "observations": 3,
+      "tracklets": [
+        66
+      ],
+      "revisited": false
+    },
+    {
+      "id": 64,
+      "views": [],
+      "best_shot": "shots/garment_064.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 192.69,
+      "quality": 0.4305,
+      "observations": 3,
+      "tracklets": [
+        31
+      ],
+      "revisited": false
+    },
+    {
+      "id": 65,
+      "views": [],
+      "best_shot": "shots/garment_065.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 108.61,
+      "quality": 0.4246,
+      "observations": 3,
+      "tracklets": [
+        20
+      ],
+      "revisited": false
+    },
+    {
+      "id": 66,
+      "views": [],
+      "best_shot": "shots/garment_066.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 96.0,
+      "quality": 0.4484,
+      "observations": 3,
+      "tracklets": [
+        17
+      ],
+      "revisited": false
+    },
+    {
+      "id": 67,
+      "views": [],
+      "best_shot": "shots/garment_067.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 17.75,
+      "quality": 0.4304,
+      "observations": 3,
+      "tracklets": [
+        2
+      ],
+      "revisited": false
+    }
+  ]
+}
